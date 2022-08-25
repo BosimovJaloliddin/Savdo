@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif, "Times New Roman", Times;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.main-info {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.main-paragraph {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  letter-spacing: 1px;
+}
+.active {
+  color: #4b0082;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 991px) {
+  .main-info {
+    font-size: 2rem;
+  }
+  .main-paragraph {
+    font-size: 0.7rem;
+    font-weight: 300;
+  }
+}
